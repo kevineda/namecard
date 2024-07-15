@@ -7,11 +7,12 @@
 
     <!-- 필수는 og 태그 -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="zvank.dothome.co.kr">
-    <meta property="og:title" content="박경태 온라인 명함">
-    <meta property="og:image" content="images/Ellipse 107.png">
-    <meta property="og:description" content="박경태 온라인명함, 전화번호 01041972036, 이메일 kt203665@gmail.com">
-    <meta property="og:site_name" content="온라인명함">
+<meta property="og:url" content="zvank.dothome.co.kr">
+<meta property="og:title" content="박경태 온라인 명함">
+<meta property="og:image" content="images/new-image.png">
+<meta property="og:description" content="박경태 온라인명함, 전화번호 01041972036, 이메일 kt203665@gmail.com">
+<meta property="og:site_name" content="온라인명함">
+
 
 
     <link rel="stylesheet" href="css/font.css">
@@ -32,10 +33,30 @@
             <a href="https://open.kakao.com/o/sNkR52Cg" target="_blank">카카오톡</a>
             <a href="https://blog.naver.com/kt2036" target="_blank" class="pc">네이버 블로그</a>
         </div>
-        <div class="map_box">
+        <div class="map_box_kev">
             <h2>오시는길</h2>
-            <div class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4708.510647419137!2d12.33760832912455!3d45.435612310004366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477eb1c7faa33a3b%3A0x732011a1298ecc89!2z66as7JWM7YagIOuLpOumrA!5e0!3m2!1sko!2skr!4v1721023379654!5m2!1sko!2skr" width="" height="450" style="border:0; width: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="map_kev">
+                <!--
+   * 카카오맵 - 약도서비스
+   * 한 페이지 내에 약도를 2개 이상 넣을 경우에는
+   * 약도의 수 만큼 소스를 새로 생성, 삽입해야 합니다.
+-->
+<!-- 1. 약도 노드 -->
+<div id="daumRoughmapContainer1721029553092" class="root_daum_roughmap root_daum_roughmap_landing" style="width: 100%;"></div>
+
+<!-- 2. 설치 스크립트 -->
+<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+<!-- 3. 실행 스크립트 -->
+<script charset="UTF-8">
+   new daum.roughmap.Lander({
+      "timestamp" : "1721029553092",
+      "key" : "2k2ms",
+      "mapWidth" : "",
+      "mapHeight" : "360"
+   }).render();
+</script>
+               <!--  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4708.510647419137!2d12.33760832912455!3d45.435612310004366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477eb1c7faa33a3b%3A0x732011a1298ecc89!2z66as7JWM7YagIOuLpOumrA!5e0!3m2!1sko!2skr!4v1721023379654!5m2!1sko!2skr" width="" height="450" style="border:0; width: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
             </div>
         </div>
     </div>

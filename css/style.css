@@ -65,17 +65,31 @@ header em   {
 
 
 
-.map_box    {
+.map_box_kev    {
     padding: 0 35px;
     padding-bottom: 100px;
 }
-.map_box h2 {
+.map_box_kev h2 {
     font-size: 16px;
     text-align: center;
     margin-bottom: 20px;
     color: white;
 }
-
+.map_box_kev .map_kev .root_daum_roughmap .cont   * {
+    color: #fff;  font-size: 15px;
+}
+.map_box_kev .map_kev .map img[src= '//t1.daumcdn.net/localimg/localimages/07/2018/pc/map/marker_map01.png'] {
+    animation: tongtong 0.1s infinite alternate;
+}
+@keyframes tongtong {
+    0%  {top: 0;}
+    100%  {top: -20px;}
+}
+.map_box_km .map_km .roughmap_maker_label { animation: tongtong2 0.4s infinite alternate; animation-delay: 0.1s;}
+@keyframes tongtong2 {
+    0% {top: -57px;}
+    100% {top: -77px;}
+}
 
 @media screen and (min-width:800px) {
     header h1 {width: 110px;height: 110px;}
